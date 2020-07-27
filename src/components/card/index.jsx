@@ -263,7 +263,7 @@ const styles = {
 }
 
 function Card({ title, description, included, cost, previousCost, yearMoneyBack, chosenBy, isFav, order }) {
-  const [respListOpen, setRespListOpen] = React.useState(isFav)
+  const [respListOpen, setRespListOpen] = React.useState(false)
 
   return (
     <div
