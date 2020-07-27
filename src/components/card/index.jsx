@@ -48,12 +48,10 @@ const styles = {
         padding-left: 0;
         padding-right: 0;
         margin-bottom: ${cardSidePadding}px;
-      }
-
-      @media (max-width: 425px) {
         & .top-heading {
           height: auto;
           min-height: 0;
+          margin-bottom: 13px;
         }
       }
 
@@ -90,12 +88,10 @@ const styles = {
         padding-left: 0;
         padding-right: 0;
         margin-bottom: ${cardSidePadding}px;
-      }
-
-      @media (max-width: 425px) {
         & .top-heading {
           height: auto;
           min-height: 0;
+          margin-bottom: 13px;
         }
       }
 
@@ -130,12 +126,10 @@ const styles = {
         width: 100%;
         margin: 0;
         margin-bottom: ${cardSidePadding}px;
-      }
-
-      @media (max-width: 425px) {
         & .top-heading {
           height: auto;
           min-height: 0;
+          margin-bottom: 13px;
         }
       }
 
@@ -176,13 +170,9 @@ const styles = {
         margin-bottom: ${cardSidePadding}px;
         & .top-heading {
           margin-top: 0;
-        }
-      }
-
-      @media (max-width: 425px) {
-        & .top-heading {
           height: auto;
           min-height: 0;
+          margin-bottom: 13px;
         }
       }
     }
