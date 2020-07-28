@@ -175,6 +175,11 @@ const styles = {
           margin-bottom: 13px;
         }
       }
+
+      & .separator {
+        margin-left: -${cardSidePadding}px;
+        margin-right: -${cardSidePadding}px;
+      }
     }
   `,
   favBadge: css`
@@ -300,6 +305,9 @@ function Card({ title, description, included, cost, previousCost, yearMoneyBack,
         css={css`
           ${styles.separator};
           bottom: ${isFav ? '1px' : ''};
+          @media (max-width: 1150px) {
+            bottom: 0;
+          }
         `}
         className="separator"
       />
@@ -322,6 +330,9 @@ function Card({ title, description, included, cost, previousCost, yearMoneyBack,
           ${styles.separator};
           bottom: ${isFav ? '1px' : ''};
           margin-bottom: 15px;
+          @media (max-width: 1150px) {
+            bottom: 0;
+          }
         `}
         className="separator"
       />
